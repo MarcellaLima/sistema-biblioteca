@@ -122,13 +122,15 @@ sistema-biblioteca/
 # 📊 Diagramas do Sistema
 
 ## 🟦 Diagrama de Caso de Uso
-![Caso de Uso](imagens/caso-uso.png)
+![Caso de Uso](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/IMAGENS%202/DIAGRAMA-CASODEUSO.png?raw=true)
 
-## 🟧 Diagrama de Atividades
-![Diagrama de Atividades](imagens/atividades.png)
+## 🟧 Diagramas de Atividades
+![Diagrama de Atividades](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/IMAGENS%202/DIAGRAMA-ATIVIDADES1.png?raw=true)
+![Diagrama de Atividades](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/IMAGENS%202/DIAGRAMA-ATIVIDADES2.png?raw=true)
+![Diagrama de Atividades]( https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/IMAGENS%202/DIAGRAMA-ATIVIDADES3.png?raw=true)
 
 ## 🟪 Diagrama Entidade-Relacionamento (DER)
-![DER](imagens/der.png)
+![DER](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/IMAGENS%202/DIAGRAMA-DER.png?raw=true)
 
 ---
 

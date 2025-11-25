@@ -103,10 +103,10 @@ sistema-biblioteca/
 # 🎨 Protótipo de Telas (Mid-Fidelity)
 
 ### 🟣 Tela de Login
-![Tela de Login]([login.png](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/catalogo.png.png?raw=true))
+![Tela de Login](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/login.png.png?raw=true)
 
 ### 🟣 Tela do Catálogo
-![Tela do Catálogo]([catalogo.png](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/catalogo.png.png?raw=true))
+![Tela do Catálogo](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/catalogo.png.png?raw=true))
 
 ### 🟣 Tela de Detalhes do Livro
 ![Tela de Livros](livros.png)

@@ -12,7 +12,8 @@ O sistema apresenta um protótipo de interface em **média fidelidade (mid-fidel
 - Requisitos Funcionais  
 - Requisitos Não Funcionais  
 - Arquitetura do Projeto  
-- Protótipo de Telas  
+- Protótipo de Telas
+- Diagramas do Sistema
 - Backend Simulado  
 - Como Executar os Testes  
 - Tecnologias Utilizadas  
@@ -115,6 +116,19 @@ sistema-biblioteca/
 
 ### 🟣 Tela do Usuário
 ![Tela do Usuário](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/adm-usuarios.png.png?raw=true)
+
+---
+
+# 📊 Diagramas do Sistema
+
+## 🟦 Diagrama de Caso de Uso
+![Caso de Uso](imagens/caso-uso.png)
+
+## 🟧 Diagrama de Atividades
+![Diagrama de Atividades](imagens/atividades.png)
+
+## 🟪 Diagrama Entidade-Relacionamento (DER)
+![DER](imagens/der.png)
 
 ---
 

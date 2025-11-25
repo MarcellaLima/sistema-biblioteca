@@ -1,8 +1,7 @@
 
 # 📚 Sistema de Biblioteca
-
-Projeto desenvolvido para a disciplina de Engenharia de Requisitos e Análise de Sistemas da Universidade de Vassouras – Campus Saquarema.  
-O sistema apresenta um protótipo de interface em **média fidelidade (mid-fi)** utilizando **HTML + CSS**, além de um backend simulado em **Python**, usando apenas **listas e dicionários** para abstração do banco de dados.
+  
+O sistema apresenta um protótipo de interface em **média fidelidade (mid-fidelity)** utilizando **HTML + CSS**, além de um backend simulado em **Python**, usando apenas **listas e dicionários** para abstração do banco de dados.
 
 ---
 
@@ -26,7 +25,7 @@ O sistema apresenta um protótipo de interface em **média fidelidade (mid-fi)**
 O **Sistema de Biblioteca** foi desenvolvido com o objetivo de gerenciar usuários, livros, empréstimos e multas de forma simples e eficiente.  
 O projeto conta com:
 
-- Interface mid-fi em tons de roxo  
+- Interface mid-fidelity   
 - Protótipo navegável (HTML + CSS)  
 - Backend simulado em Python  
 - Testes automatizados para validação do sistema  
@@ -109,13 +108,13 @@ sistema-biblioteca/
 ![Tela do Catálogo](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/catalogo.png.png?raw=true))
 
 ### 🟣 Tela de Detalhes do Livro
-![Tela de Livros](livros.png)
+![Tela de Livros](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/livros.png.png?raw=true))
 
 ### 🟣 Tela do Bibliotecário
-![Tela do Bibliotecário](adm-livros.png)
+![Tela do Bibliotecário](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/adm-livros.png.png?raw=true)
 
 ### 🟣 Tela do Usuário
-![Tela do Usuário](adm-usuarios.png)
+![Tela do Usuário](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/adm-usuarios.png.png?raw=true)
 
 ---
 

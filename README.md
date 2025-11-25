@@ -103,7 +103,7 @@ sistema-biblioteca/
 # 🎨 Protótipo de Telas (Mid-Fidelity)
 
 ### 🟣 Tela de Login
-![Tela de Login](login.png)
+![Tela de Login]([login.png](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/catalogo.png.png?raw=true))
 
 ### 🟣 Tela do Catálogo
 ![Tela do Catálogo](catalogo.png)

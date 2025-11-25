@@ -1,4 +1,3 @@
-/* styles.css - baseado em tons de roxo, layout mid-fi */
 :root{
   --bg:#F6F0FB;
   --purple-900:#2b0b3a;
@@ -18,10 +17,8 @@ body{
   padding:28px;
 }
 
-/* Container */
 .container{max-width:1100px;margin:0 auto;padding:24px;}
 
-/* Header */
 .header{
   display:flex;align-items:center;justify-content:space-between;
   margin-bottom:20px;
@@ -40,12 +37,10 @@ body{
 }
 .subtitle{font-size:12px;color:var(--muted);}
 
-/* Card */
 .card{
   background:var(--card-bg);border-radius:12px;padding:18px;box-shadow:0 6px 20px rgba(126,87,170,0.08);
 }
 
-/* Forms */
 .form-row{display:flex;gap:12px;margin-bottom:12px;}
 .input, select{flex:1;padding:10px;border-radius:8px;border:1px solid #ebdff5;background:#fff;font-size:14px;}
 .btn{
@@ -55,26 +50,21 @@ body{
 }
 .btn.secondary{background:transparent;color:var(--purple-700);border:1px solid rgba(155,95,209,0.12)}
 
-/* Grid */
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
 @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr);}}
 
-/* Book item (NO IMAGE) */
-.book{
   padding:14px;border-radius:10px;background:linear-gradient(180deg,#fff,#faf5ff);
   border:1px solid #f0e7fb;display:flex;flex-direction:column;gap:8px;height:170px;
 }
 .book .meta{font-size:13px;color:var(--muted);}
 .book .title{font-weight:700;font-size:15px;color:var(--purple-900);}
 
-/* Small controls */
 .controls{display:flex;gap:8px;align-items:center;}
 .chips{background:var(--accent);padding:6px 8px;border-radius:999px;font-size:12px;color:var(--purple-900);}
 
-/* Table */
 .table{width:100%;border-collapse:collapse;}
 .table th, .table td{padding:10px;border-bottom:1px solid #f0e7fb;text-align:left;}
 .table th{font-size:13px;color:var(--muted);}
 
-/* Footer */
 .footer{margin-top:18px;color:var(--muted);font-size:13px;text-align:center;}
+

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Sistema de Biblioteca — Catálogo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">SB</div>
+        <div>
+          <div class="title">Sistema de Biblioteca</div>
+          <div class="subtitle">Catálogo</div>
+        </div>
+      </div>
+      <div class="controls">
+        <input class="input" placeholder="Pesquisar por título, autor ou gênero" style="width:320px;" />
+        <button class="btn">Pesquisar</button>
+      </div>
+    </header>
+
+    <section style="margin-bottom:18px" class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <div><strong>Resultados para: </strong><span class="muted">Todos os livros</span></div>
+        <div class="controls"><div class="chips">5 livros</div></div>
+      </div>
+
+      <div class="grid">
+        <!-- Each book item: NO IMAGE - text only -->
+        <div class="book">
+          <div class="title">Harry Potter e a Pedra Filosofal</div>
+          <div class="meta">Autor: J.K. Rowling • 1997 • Fantasia</div>
+          <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+            <div style="font-size:13px;color:var(--muted)">Disponível</div>
+            <div style="display:flex;gap:8px">
+              <button class="btn secondary">Detalhes</button>
+              <button class="btn">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="title">As Crônicas de Nárnia – O Leão, a Feiticeira e o Guarda-roupa</div>
+          <div class="meta">Autor: C.S. Lewis • 1950 • Fantasia</div>
+          <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+            <div style="font-size:13px;color:var(--muted)">Disponível</div>
+            <div style="display:flex;gap:8px">
+              <button class="btn secondary">Detalhes</button>
+              <button class="btn">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="title">O Hobbit</div>
+          <div class="meta">Autor: J.R.R. Tolkien • 1937 • Fantasia</div>
+          <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+            <div style="font-size:13px;color:var(--muted)">Emprestado</div>
+            <div style="display:flex;gap:8px">
+              <button class="btn secondary">Detalhes</button>
+              <button class="btn" disabled style="opacity:0.6">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="title">Jogos Vorazes</div>
+          <div class="meta">Autor: Suzanne Collins • 2008 • Distopia</div>
+          <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+            <div style="font-size:13px;color:var(--muted)">Disponível</div>
+            <div style="display:flex;gap:8px">
+              <button class="btn secondary">Detalhes</button>
+              <button class="btn">Reservar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="book">
+          <div class="title">Percy Jackson e o Ladrão de Raios</div>
+          <div class="meta">Autor: Rick Riordan • 2005 • Aventura</div>
+          <div style="margin-top:auto;display:flex;justify-content:space-between;align-items:center">
+            <div style="font-size:13px;color:var(--muted)">Disponível</div>
+            <div style="display:flex;gap:8px">
+              <button class="btn secondary">Detalhes</button>
+              <button class="btn">Reservar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="card" style="margin-top:14px">
+      <h3 style="margin-bottom:12px;color:var(--purple-700)">Filtros rápidos</h3>
+      <div style="display:flex;gap:12px;">
+        <select class="input" style="max-width:220px"><option>Todos os gêneros</option><option>Fantasia</option><option>Aventura</option></select>
+        <select class="input" style="max-width:220px"><option>Mais recentes</option><option>A-Z</option></select>
+      </div>
+    </div>
+
+    <div class="footer">Sistema de Biblioteca</div>
+  </div>
+</body>
+</html>

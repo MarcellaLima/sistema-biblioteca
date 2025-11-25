@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Detalhes do Livro — Harry Potter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">SB</div>
+        <div>
+          <div class="title">Sistema de Biblioteca</div>
+          <div class="subtitle">Detalhes do livro</div>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="btn">Voltar ao catálogo</button>
+      </div>
+    </header>
+
+    <main class="card" style="display:grid;grid-template-columns:1fr 320px;gap:20px">
+      <div>
+        <h2 style="color:var(--purple-700)">Harry Potter e a Pedra Filosofal</h2>
+        <p class="meta">Autor: J.K. Rowling • Editora: Rocco • 1997 • Fantasia</p>
+        <section style="margin-top:14px">
+          <h4 style="margin-bottom:8px">Sinopse</h4>
+          <p style="color:var(--muted);line-height:1.5">Harry Potter descobre, no seu 11º aniversário, que é um bruxo e que foi aceito na Escola de Magia e Bruxaria de Hogwarts. Uma história sobre amizade, coragem e magia.</p>
+        </section>
+
+        <section style="margin-top:14px">
+          <h4 style="margin-bottom:8px">Exemplares & Estado</h4>
+          <table class="table">
+            <thead><tr><th>Exemplar</th><th>Local</th><th>Estado</th></tr></thead>
+            <tbody>
+              <tr><td>HPF-001</td><td>Prateleira A1</td><td>Disponível</td></tr>
+              <tr><td>HPF-002</td><td>Prateleira A1</td><td>Emprestado</td></tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+
+      <aside>
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div class="card">
+            <div style="font-weight:700">Disponibilidade</div>
+            <div style="color:var(--muted);margin-top:6px">1 disponível / 2 no total</div>
+            <div style="margin-top:12px;display:flex;gap:8px">
+              <button class="btn">Pedir Empréstimo</button>
+              <button class="btn secondary">Reservar</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div style="font-weight:700">Ações rápidas</div>
+            <div style="margin-top:8px;display:flex;flex-direction:column;gap:8px">
+              <button class="btn secondary">Editar Livro</button>
+              <button class="btn secondary">Remover Livro</button>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <div class="footer">Sistema de Biblioteca</div>
+  </div>
+</body>
+</html>

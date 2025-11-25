@@ -106,7 +106,7 @@ sistema-biblioteca/
 ![Tela de Login]([login.png](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/catalogo.png.png?raw=true))
 
 ### 🟣 Tela do Catálogo
-![Tela do Catálogo](catalogo.png)
+![Tela do Catálogo]([catalogo.png](https://github.com/MarcellaLima/sistema-biblioteca/blob/main/imagens/catalogo.png.png?raw=true))
 
 ### 🟣 Tela de Detalhes do Livro
 ![Tela de Livros](livros.png)

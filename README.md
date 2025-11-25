@@ -50,30 +50,30 @@ O sistema demonstra o fluxo completo de cadastro, consulta, empréstimo e gerenc
 ## 📌 Requisitos Funcionais
 
 - [RF001] Cadastrar e gerenciar usuários  
-- O sistema deve permitir o cadastro, edição, consulta e exclusão de usuários, incluindo dados pessoais, tipo de usuário.
+O sistema deve permitir o cadastro, edição, consulta e exclusão de usuários, incluindo dados pessoais, tipo de usuário.
 - [RF002] Cadastrar, atualizar e remover livros  
-- O sistema deve permitir registrar livros com detalhes completos (autor, edição, editora, ano, gênero) e gerenciar seu estado (disponível, reservado, emprestado, danificado).
+O sistema deve permitir registrar livros com detalhes completos (autor, edição, editora, ano, gênero) e gerenciar seu estado (disponível, reservado, emprestado, danificado).
 - [RF003] Controle de multas  
-- O sistema deve calcular, registrar e emitir comprovante de multas por atraso, possibilitando pagamento e baixa no sistema.
+O sistema deve calcular, registrar e emitir comprovante de multas por atraso, possibilitando pagamento e baixa no sistema.
 - [RF004] Gestão do inventário físico  
-- O sistema deve gerenciar o Acervo em dois níveis: metadados bibliográficos (título, autor, gênero) e unidades físicas (Cópias/Exemplares) e a gestão dos estados físicos da cópia (em reparo, extraviado, danificado).
+O sistema deve gerenciar o Acervo em dois níveis: metadados bibliográficos (título, autor, gênero) e unidades físicas (Cópias/Exemplares) e a gestão dos estados físicos da cópia (em reparo, extraviado, danificado).
 - [RF005] Serviços de pesquisa e histórico do usuário  
-- O sistema deve prover todas as ferramentas de consulta. Isso engloba a pesquisa do acervo com filtros avançados, e a consulta do histórico do usuário (itens emprestados, histórico de leitura e status das multas).
+O sistema deve prover todas as ferramentas de consulta. Isso engloba a pesquisa do acervo com filtros avançados, e a consulta do histórico do usuário (itens emprestados, histórico de leitura e status das multas).
 
 ---
 
 ## 🔒 Requisitos Não Funcionais
 
 - [RNF001] Usabilidade  
-- O sistema deve apresentar interface clara, intuitiva e de fácil navegação para usuários e bibliotecários.
+O sistema deve apresentar interface clara, intuitiva e de fácil navegação para usuários e bibliotecários.
 - [RNF002] Segurança  
-- O sistema deve proteger dados sensíveis, aplicar autenticação obrigatória e utilizar criptografia para senhas.
+O sistema deve proteger dados sensíveis, aplicar autenticação obrigatória e utilizar criptografia para senhas.
 - [RNF003] Desempenho  
-- Consultas e buscas devem ser processadas em até 3 segundos.
+Consultas e buscas devem ser processadas em até 3 segundos.
 - [RNF004] Confiabilidade 
-- O sistema deve garantir integridade dos dados durante operações de empréstimo, devolução e atualização.
+O sistema deve garantir integridade dos dados durante operações de empréstimo, devolução e atualização.
 - [RNF005] Disponibilidade 
-- O sistema deve permanecer disponível 24 horas por dia, salvo manutenção programada.
+O sistema deve permanecer disponível 24 horas por dia, salvo manutenção programada.
 
 ---
 
